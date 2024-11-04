@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shuffle quizz</title>
+	</head>
+	<body></body>
+	<script type="text/javascript">
+		const quizz = [
+			'https://quizizz.com/join?gc=81520293',
+			'https://quizizz.com/join?gc=74739332',
+			'https://quizizz.com/join?gc=80542878',
+			'https://quizizz.com/join?gc=83645903',
+			'https://quizizz.com/join?gc=83044460',
+			'https://quizizz.com/join?gc=91722612',
+			'https://quizizz.com/join?gc=83996715',
+		];
+		const selected = quizz[Math.floor(Math.random() * quizz.length)];
+		window.location.replace(selected);
+	</script>
+</html>
